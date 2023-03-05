@@ -5,7 +5,7 @@ interface Project {
   sourceCodeLink: string | null;
   workInProgress: boolean;
   liveLink: string;
-  projectImage: any;
+  projectImage: string | any;
 }
 
 export const projects: Project[]  = [
