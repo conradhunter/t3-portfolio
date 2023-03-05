@@ -1,14 +1,4 @@
-interface Project {
-  id: number;
-  title: string;
-  projectDescription: string;
-  sourceCodeLink: string | null;
-  workInProgress: boolean;
-  liveLink: string;
-  projectImage: string | any;
-}
-
-export const projects: Project[]  = [
+export const projects = [
   {
     id: 1,
     title: "WindiKit",
