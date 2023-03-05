@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import { projects } from "~/data/projects";
-import image from "../assets/ultraverse-ss.png";
 
 function Projects() {
   return (
