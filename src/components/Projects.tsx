@@ -8,7 +8,7 @@ function Projects() {
       <h1 className="mb-10 text-center text-5xl font-bold text-indigo-500">
         Projects
       </h1>
-      {projects.map((project, index) => {
+      {projects.map((project) => {
         return (
           <div
             key={project.id}
