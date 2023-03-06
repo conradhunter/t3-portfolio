@@ -31,12 +31,12 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Password Generator",
+    title: "Treact",
     projectDescription:
-      "My password generator lets users create secure passwords by selecting the length (4-60) and including uppercase letters, symbols, and numbers. Users can generate unique passwords that are difficult to crack, providing them with the peace of mind they need to keep their personal information safe.",
-    sourceCodeLink: "https://github.com/conradhunter/Password-Generator",
+      "Treact is a modern, fully responsive mock website with a sleek design and user-friendly interface. Whether you're browsing on a desktop or mobile device, Treact's seamless deisgn allows for great user experience.",
+    sourceCodeLink: "https://github.com/conradhunter/Treact",
     workInProgress: false,
-    liveLink: "https://conradhunter.github.io/Password-Generator/",
-    projectImage: require("../assets/password-generator-ss.png"),
+    liveLink: "https://conradhunter.github.io/Treact/",
+    projectImage: require("../assets/treact-ss.png"),
   },
 ];

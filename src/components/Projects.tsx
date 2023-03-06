@@ -14,12 +14,12 @@ function Projects() {
             key={project.id}
             className={`flex w-full flex-col items-center border-b-2 border-b-slate-500 py-16 last:border-0`}
           >
-            <div className="mx-auto flex w-9/12">
-              <div className="mr-20">
+            <div className="mx-auto flex w-9/12 max-[640px]:flex-col sm:flex-col lg:flex-row">
+              <div className="sm:mr-0 lg:mr-20">
                 <h2 className="text-center text-2xl font-bold text-indigo-400">
                   {project.title}
                 </h2>
-                <p className="mt-5 w-fit max-w-2xl text-center text-sm text-white">
+                <p className="mt-5 w-fit max-w-2xl text-center text-sm text-white sm:mb-5">
                   {project.projectDescription}
                 </p>
               </div>
@@ -36,7 +36,7 @@ function Projects() {
                     overflow: "hidden",
                   }}
                   alt={`${project.title} Screengrab`}
-                  className="rounded-2xl"
+                  className="mt-5 rounded-2xl"
                 />
               </a>
             </div>
