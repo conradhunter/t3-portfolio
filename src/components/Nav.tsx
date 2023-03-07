@@ -11,9 +11,9 @@ function Nav() {
         <Image src={personalLogo} alt="" height={50} />
       </Link>
       <div className="flex items-center">
-        <Link href="/contact">
+        <a href="mailto:conrad@conradhunterdev.com">
           <ContactButton />
-        </Link>
+        </a>
       </div>
     </nav>
   );

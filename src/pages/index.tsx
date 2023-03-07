@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         bg-gradient-to-b from-slate-700 to-slate-900
       "
       >
-        <section className="min-h-screen">
+        <section className="min-h-screen w-full">
           <Nav />
           <LandingIntroduction />
         </section>
