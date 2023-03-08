@@ -3,6 +3,7 @@ import Head from "next/head";
 import LandingIntroduction from "~/components/LandingIntroduction";
 import Nav from "~/components/Nav";
 import Projects from "~/components/Projects";
+import TechStack from "~/components/TechStack";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,11 @@ const Home: NextPage = () => {
           <Nav />
           <LandingIntroduction />
         </section>
+
+        <section>
+          <TechStack />
+        </section>
+
         <section className="">
           <Projects />
         </section>

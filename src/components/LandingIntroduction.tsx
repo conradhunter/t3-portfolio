@@ -11,10 +11,8 @@ function LandingIntroduction() {
         Frontend Developer
       </h2>
       <p className="mx-[15%] mt-10 max-w-2xl text-center text-base font-medium text-white max-[640px]:text-xs">
-        I&apos;m Conrad Hunter, a 24-year-old frontend developer. I take pride
-        in crafting visually stunning and easy-to-use web interfaces. With a
-        keen attention to detail and a deep understanding of user experience, I
-        deliver intuitive designs that elevate brands and delight users.
+        I&apos;m Conrad Hunter, a 24-year-old Frontend Developer. I take pride
+        in crafting visually stunning and easy-to-use web interfaces.
       </p>
       <SocialLinks />
     </div>
