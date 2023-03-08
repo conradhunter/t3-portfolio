@@ -22,6 +22,18 @@ function Projects() {
                 <p className="mt-5 w-fit max-w-2xl text-center text-sm text-white sm:mb-5">
                   {project.projectDescription}
                 </p>
+                <div className="text-center">
+                  {project.techStack.map((tech) => {
+                    return (
+                      <span
+                        className="mr-2 rounded-md bg-slate-700 px-2 py-2 text-sm text-white"
+                        key={tech}
+                      >
+                        {tech}
+                      </span>
+                    );
+                  })}
+                </div>
               </div>
               <a
                 href={project.liveLink}

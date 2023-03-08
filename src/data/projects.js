@@ -8,6 +8,14 @@ export const projects = [
     workInProgress: true,
     liveLink: "https://windikit.com/",
     projectImage: require("../assets/windikit-ss.png"),
+    techStack: [
+      "React",
+      "TailwindCSS",
+      "Stripe",
+      "Auth0",
+      "ExpressJS",
+      "Firebase",
+    ],
   },
   {
     id: 2,
@@ -18,6 +26,7 @@ export const projects = [
     workInProgress: false,
     liveLink: "https://virtual-internship-ultraverse.netlify.app/",
     projectImage: require("../assets/ultraverse-ss.png"),
+    techStack: ["React", "CSS", "Animate on Scroll", "RESTAPI"],
   },
   {
     id: 3,
@@ -28,6 +37,7 @@ export const projects = [
     workInProgress: false,
     liveLink: "https://mock-ecommerce-searchspringapi.netlify.app/",
     projectImage: require("../assets/ecommerce-ss.png"),
+    techStack: ["React", "CSS", "SearchSpringAPI"],
   },
   {
     id: 4,
@@ -38,5 +48,6 @@ export const projects = [
     workInProgress: false,
     liveLink: "https://conradhunter.github.io/Treact/",
     projectImage: require("../assets/treact-ss.png"),
+    techStack: ["HTML", "CSS", "JavaScript"],
   },
 ];
