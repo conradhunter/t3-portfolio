@@ -22,11 +22,11 @@ function Projects() {
                 <p className="mt-5 w-fit max-w-2xl text-center text-sm text-white sm:mb-5">
                   {project.projectDescription}
                 </p>
-                <div className="mt-10 flex flex-wrap items-center justify-center gap-2 text-center">
+                <div className="mt-10 flex flex-wrap items-center justify-center text-center">
                   {project.techStack.map((tech) => {
                     return (
                       <span
-                        className="mr-2 rounded-md bg-slate-700 px-2 py-2 text-sm text-white"
+                        className="m-2 rounded-md bg-slate-700 px-2 py-2 text-sm text-white"
                         key={tech}
                       >
                         {tech}
@@ -37,6 +37,7 @@ function Projects() {
               </div>
               <a
                 href={project.liveLink}
+                target="_blank"
                 className="flex items-center justify-center duration-500 hover:scale-105"
               >
                 <Image
