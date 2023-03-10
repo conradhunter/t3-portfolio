@@ -19,7 +19,7 @@ function TechStack() {
       <h1 className="mb-20 text-center text-5xl font-bold text-indigo-500">
         Tech Stack
       </h1>
-      <div className="grid grid-cols-4 grid-rows-2 gap-14">
+      <div className="grid grid-cols-4 grid-rows-2 gap-14 max-[640px]:grid-cols-2 max-[640px]:grid-rows-4 max-[425px]:grid-cols-2 max-[425px]:grid-rows-4 sm:grid-cols-3 sm:grid-rows-4">
         <div className="flex h-24 w-24 items-center justify-center rounded-lg">
           <Image
             src={html}

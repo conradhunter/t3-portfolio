@@ -20,7 +20,9 @@ const Home: NextPage = () => {
       >
         <section className="min-h-screen w-full">
           <Nav />
-          <LandingIntroduction />
+          <div className="flex h-[calc(100vh-6rem)] items-center justify-center">
+            <LandingIntroduction />
+          </div>
         </section>
 
         <section>

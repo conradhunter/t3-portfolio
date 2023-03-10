@@ -12,6 +12,7 @@
 
 html {
   background-color: #334155;
+  width: 100%;
 }
 
 ::-webkit-scrollbar-track-piece {

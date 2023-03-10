@@ -22,7 +22,7 @@ function Projects() {
                 <p className="mt-5 w-fit max-w-2xl text-center text-sm text-white sm:mb-5">
                   {project.projectDescription}
                 </p>
-                <div className="text-center">
+                <div className="mt-10 flex flex-wrap items-center justify-center gap-2 text-center">
                   {project.techStack.map((tech) => {
                     return (
                       <span
@@ -48,7 +48,7 @@ function Projects() {
                     overflow: "hidden",
                   }}
                   alt={`${project.title} Screengrab`}
-                  className="mt-5 rounded-2xl"
+                  className="mt-10 rounded-2xl"
                 />
               </a>
             </div>

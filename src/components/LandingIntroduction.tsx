@@ -3,7 +3,7 @@ import SocialLinks from "./SocialLinks";
 
 function LandingIntroduction() {
   return (
-    <div className="mt-28 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <h1 className="font-poppins text-5xl font-bold text-indigo-500 max-[640px]:text-3xl ">
         Conrad Hunter
       </h1>
